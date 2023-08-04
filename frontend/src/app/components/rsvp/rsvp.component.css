@@ -1,0 +1,74 @@
+h3 {text-align: center;
+  font-family: palatino;
+  margin-top: 20px;
+  color: red;
+  font-weight: bold;
+  background-color:aliceblue;
+}
+
+div {text-align: center;
+font-family: palatino;
+}
+
+body {
+text-align: center;
+
+
+}
+
+img{
+align-items: right;
+width: 20px;
+height: 20px;
+}
+
+
+.bg-img {
+  /* The image used */
+  background-image: url("/assets/images/flower2.jpeg");
+
+  /*background-position:  bottom;
+  background-repeat:repeat-x;*/
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-y: scroll;
+  margin: 0;
+  background-position: center;
+  padding: 0;
+
+
+  height: 100%;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/assets/images/magicForest.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden; /* Optional: Hide scrollbars if needed */
+  height: 100%;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container {
+  padding-top: 75px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+label {
+  font-family: palatino;
+  font-size: 22px;
+  color: white;
+  font-weight: medium;
+  /*-webkit-text-stroke: 0.25px white;*/
+
+}
